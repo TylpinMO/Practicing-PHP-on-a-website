@@ -1,0 +1,271 @@
+@charset "utf-8";
+a:hover{
+    color: rgb(255, 255, 255);
+}
+header{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(179, 179, 179);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+#logo{
+    float: left;
+    position: absolute; left: 180px; top: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 140px;
+    height: 90px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1.00);
+    background-color: rgba(252, 252, 252, 1.00);
+}
+#HeaderLinks{
+    float: right;
+    width: calc(100%-30px);
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 1.00);
+}
+#HeaderLinks a {
+    text-decoration: none;
+    color: rgba(146, 146, 146, 1.00);
+    padding-left: 66px;
+    font-size: 14px;
+}
+#offer{
+    font: 16pt/12pt Consolas, "Lucida Console", Monaco, "Courier New", "monospace";
+    text-align: center;
+    clear: both;
+    background-image: url(../images/offer.jpg);
+    color: white;
+    padding-left: 125px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    border-radius: 24px;
+    overflow: auto;
+}
+.offertext{
+    color: white;
+}
+#content{
+    clear: both;
+    overflow: auto;
+    padding-top: 20px;
+}
+#content .sidebar{
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(146, 146, 146, 1.00);
+    float: left;
+    width: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    background-color: rgba(245, 245, 219, 1.00);
+    padding-top: 36px;
+    height: 700px;
+    border-radius: 12px 12px 0 0;
+}
+#content .mainContent{
+    float: left;
+    width: 70%;
+    text-align: center;
+    padding-left: 4%;
+}
+#content .sidebar #menubar{
+    text-align: left;
+    color: rgba(146, 146, 146, 1.00);
+    position: relative;
+    left: 0%;
+}
+#content .sidebar #search{
+    width: 100%;
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+    color: rgba(167, 167, 167, 1.00);
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+#mainWrapper{
+    width: 80%;
+    padding-left: 10%;
+}
+.menu ul li{
+    list-style-type: none;
+    font-size: x-large;
+    position: relative;
+    left: -35px;
+    padding-top: 12px;
+    width: 120%;
+}
+#content .mainContent .productRow{
+    overflow: auto;
+    color: rgba(146, 146, 146, 1.00);
+}
+.mainContent .productRow .productInfo{
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 21%;
+}
+.mainContent .productInfo .price{
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(146, 146, 146, 1.00);
+    font-size: 18px;
+    position: relative;
+    top: -20px;
+    text-decoration: none;
+}
+#mainWrapper footer{
+    clear: both;
+    overflow: auto;
+    background-color: rgba(125, 80, 255, 1.00);
+    font-family: source-sans-pro, sans-serif;
+    font-style: normal;
+    font-size: 10pt;
+    font-weight: 200;
+    line-height: 1.8;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-right: 10px;
+}
+#mainWrapper footer div{
+    width: 27%;
+    float: left;
+    padding-left: 4%;
+    padding-right: 2%;
+    color: rgba(255, 255, 255, 1.00);
+    text-align: left;
+}
+.productInfo div img{
+    width: 100%;
+}
+.sidebar #menubar .menu ul li a {
+    color: rgba(146, 146, 146, 1.00);
+    text-decoration: none;
+}
+.sidebar #menubar .menu ul li a:hover{
+    color: rgba(107, 97, 97, 1.00);
+    text-decoration: none;
+}
+#menubar .menu h2{
+    font-size: 14px;
+}
+#menubar .menu ul li a{
+    font-size: 14px;
+}
+.sidebar #menubar .menu{
+    margin-bottom: 20px;
+}
+.mainContent .info{
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: justify;
+}
+#contact{
+    box-shadow: -12px 12px 32px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding: 32px 10px 10px 32px;
+    margin-right: 20px;
+}
+.productRow .productInfo .productContent{
+    position: relative;
+    top: -37px;
+    font-size: 14px;
+    font-family: source-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    color: rgba(146, 146, 146, 1.00);
+    white-space: pre-wrap;
+}
+.productRow .productInfo .buyButton{
+    position: relative;
+    top: -48px;
+    width: 84%;
+    background-color: rgba(208, 207, 207, 1.00);
+    height: 35px;
+    color: rgba(255, 255, 255, 1.00);
+    border-style: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+#mainmenu li ul li{
+    text-indent: 20px;
+}
+marquee{
+    color: red; font: 12pt sans-serif;
+}
+#gallery img{
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    outline: 1px solid #666;
+    background: #f0f0f0;
+    float: left;
+    height: 100px;
+}
+.hgal{
+    font: bold 20px sans-serif; 
+    color: rgba(0, 0, 255, 0.5);
+}
+.vote{
+    font: 11pt sans-serif;
+}
+.buttonvote{
+    color:blue;
+    height: 30px;
+    font-weight: bold;
+}
+.voteres{
+    font: bold 11pt verdana;
+    text-align: left;
+}
+#menu {
+    background: #800080;
+    display: inline-block;
+    width: 100%;
+}
+.menu-item {
+    display: inline-block;
+    position: relative;
+}
+.menu-item a{
+    font-family: Tahoma;
+    font-size: 12pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 4px 10px;
+    background: #800080;
+}
+.menu-item a:hover{
+    background: #ba55d3;
+    color: yellow;
+}
+.submenu{
+    display: none;
+    text-align: left;
+    width: 238px;
+    position: absolute;
+}
+#db_res a {text-decoration: none; font: bold 20px tahoma;}
+#db_res a:hover{color: rgba(0,0,255,0.5);}
+#db_res #res{width: 100%; border: 1px solid black; border-collapse: collapse;}
+#db_res #res th{border: 1px solid black;}
+#db_res #res td{text-align: left; border: 1px solid black;}
+#db_res #res .td{ text-align: center;}
+#db_res tr{font: 9pt arial;}
+#db_res select, input{width: 200;}
+.info_msg{
+    background-color: #ffefd5;
+    color: red;
+    font: 600 10pt sans-serif;
+    border: red 1px solid;
+    padding: 2px 6px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobileShop</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <script src="../menu.js"></script>
+</head>
+<body onload="allClose('mainmenu')">
+    <div id="mainWrapper">
+        <header>
+            <div id="logo"> <img src="../images/MobileShop.jpg" alt="MobileShop" width="165px"></div>
+            <div id="HeaderLinks"><a href="#" title="Вход/Регистрация">Вход/Регистрация</a>
+                <a href="#" title="Корзина">Корзина</a></div>
+        </header>
+        <section id="offer" class="offertext">
+            <h2>Время покупок!</h2>
+            <p>Большие скидки на все товары!</p>
+        </section> 
+        <div id="content">
+            <section class="sidebar">
+                <input type="text" id="search" value="поиск">
+                <div id="menubar">
+                    <nav class="menu">
+                        <h2>Навигация</h2>
+                        <hr>
+                        <ul id="mainmenu">
+                            <li><a href="../index.html">Главная</a></li>
+                            <li>
+                              <a href="#" onclick="openMenu(this);return false">Каталог товаров</a>
+                              <ul>
+                                <li><a href="../pages/Smartphones.html">Смартфоны</a></li>
+                                <li><a href="../pages/Phones.html">Кнопочные телефоны</a></li>
+                                <li><a href="../pages/Accessories.html">Аксессуары</a></li>
+                              </ul>
+                            </li>
+                            <li><a href="../pages/company.html">О компании</a></li>
+                            <li><a href="../pages/contacts.html">Контакты</a></li>
+                            <li><a href="../pages/gallery.html">Галерея</a></li>
+                        </ul>
+                        <hr>
+                    </nav>
+                    <form action="../vote.php" method="POST">
+                        <p class="vote">Как вы оцениваете наш<br>магазин?</p>
+                        <p class="vote">
+                            <input type="radio" name="vote" value="5" checked>&nbsp;отлично<br>
+                            <input type="radio" name="vote" value="4" >&nbsp;хорошо<br>
+                            <input type="radio" name="vote" value="3" >&nbsp;удовлетворительно<br>
+                            <input type="radio" name="vote" value="2" >&nbsp;плохо<br>
+                        </p>
+                        <input type="submit" value="Отдать голос" class="buttonvote">
+                    </form>
+                </div>
+            </section>
+            <section class="mainContent">
+                <div class="productRow">
+                    <article class="productInfo">
+                        <div><img alt="Iphone 12 128gb" src="../images/Iphone 12 128gb Green.jpg"></div>
+                        <p class="price">84 990 руб.</p>
+                        <p class="productContent">Iphone 12 128gb<br>Green<br><br></p>
+                        <input type="button" name="button" value="Купить" class="buyButton">
+                    </article>
+                    <article class="productInfo">
+                        <div><img alt="Huawei P40 Lite Midnight Black" src="../images/Huawei P40 Lite.jpg"></div>
+                        <p class="price">19 990 руб.</p>
+                        <p class="productContent">Huawei P40 Lite Midnight Black 128gb<br><br></p>
+                        <input type="button" name="button" value="Купить" class="buyButton">
+                    </article>
+                    <article class="productInfo">
+                        <div><img alt="Samsung Galaxy S21 Ultra 512gb Phantom Black" src="../images/Samsung Galaxy S21.jpg"></div>
+                        <p class="price">127 990 руб.</p>
+                        <p class="productContent">Samsung Galaxy S21 Ultra 512gb Phantom Black</p>
+                        <input type="button" name="button" value="Купить" class="buyButton">
+                    </article>
+                </div>
+                <div class="productRow">
+                    <article class="productInfo">
+                        <div><img alt="Xiaomi Mi 10T 8+128gb Black" src="../images/Xiaomi Mi 10T 8+128GB Black.jpg"></div>
+                        <p class="price">40 990 руб.</p>
+                        <p class="productContent">Xiaomi Mi 10T 8+128gb<br> Black<br><br></p>
+                        <input type="button" name="button" value="Купить" class="buyButton">
+                    </article>
+                    <article class="productInfo">
+                        <div><img alt="Honor 10X Lite 4+128gb Emerald Green"src="../images/Honor 10X.jpg"></div>
+                        <p class="price">14 990 руб.</p>
+                        <p class="productContent">Honor 10X Lite 4+128gb Emerald Green<br><br></p>
+                        <input type="button" name="button" value="Купить" class="buyButton">
+                    </article>
+                    <article class="productInfo">
+                        <div><img alt="Realme 6 Pro 8+128GB Lightning Blue"src="../images/Realme 6 Pro 8+128GB Lightning Blue.jpg"></div>
+                        <p class="price">22 990 руб.</p>
+                        <p class="productContent">Realme 6 Pro 8+128GB Lightning Blue<br><br></p>
+                        <input type="button" name="button" value="Купить" class="buyButton">
+                    </article>
+                </div>
+            </section>
+            <footer>
+                <div>
+                    <p>MobileShop &copy; <script>d=new Date(); document.write(d.getFullYear())</script>
+                    Все права защищены</p>        
+                </div>
+                <div><p></p></div>
+                <div>
+                    <p>За получением дополнительной информации пишите на электронную почту info@mydomain.ru</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+    </html>
